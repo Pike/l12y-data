@@ -5,23 +5,11 @@
    "content": "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1\">"
   },
   {
-   "type": "unknown",
-   "content": "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1\">"
-  },
-  {
    "type": "meta",
    "content": "<meta charset=\"utf-8\">"
   },
   {
-   "type": "unknown",
-   "content": "<meta charset=\"utf-8\">"
-  },
-  {
    "type": "meta",
-   "content": "<meta name=\"theme-color\" content=\"#eeeeee\">"
-  },
-  {
-   "type": "unknown",
    "content": "<meta name=\"theme-color\" content=\"#eeeeee\">"
   },
   {
