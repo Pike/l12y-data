@@ -1,107 +1,383 @@
 {
  "head": [
   {
-   "type": "meta",
+   "_type": "meta",
    "content": "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1\">"
   },
   {
-   "type": "meta",
+   "_type": "meta",
    "content": "<meta charset=\"utf-8\">"
   },
   {
-   "type": "meta",
+   "_type": "meta",
    "content": "<meta name=\"theme-color\" content=\"#eeeeee\">"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/switches.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/input_areas.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/buttons.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/confirm.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/lists.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/progress_activity.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/status.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/style/animations.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/style/style.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/style/status.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/style/overlay.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/style/fb_extensions.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/style/tutorial.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/style/responsive.css"
   },
   {
-   "type": "style",
+   "_type": "style",
    "href": "/shared/pages/import/style/curtain_frame.css"
   },
   {
-   "type": "unknown",
+   "_type": "unknown",
    "content": "<title>Welcome to Browser OS</title>"
   },
   {
-   "type": "l10n",
+   "_type": "l10n",
    "href": "/shared/locales/branding/branding.{locale}.properties"
   },
   {
-   "type": "l10n",
+   "_type": "l10n",
    "href": "/shared/locales/import_contacts/import_contacts.{locale}.properties"
   },
   {
-   "type": "l10n",
+   "_type": "l10n",
    "href": "/locales/ftu.{locale}.properties"
   },
   {
-   "type": "l10n",
+   "_type": "l10n",
    "href": "/shared/locales/date/date.{locale}.properties"
   },
   {
-   "type": "l10n",
+   "_type": "l10n",
    "href": "/shared/locales/tz/tz.{locale}.properties"
   },
   {
-   "type": "style",
+   "_type": "script",
+   "src": "/shared/js/l10n.js"
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/l10n_date.js"
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/tz_select.js"
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/input_mgmt/input_app_list.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/keyboard_helper.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/language_list.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/version_helper.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/status.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/overlay.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/config.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/misc.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/sdcard.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/vcard_parser.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/import_from_vcard.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/utilities/import_sim_contacts.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/screen_layout.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/text_normalizer.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/lazy_loader.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/font_size_utils.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/basket_client.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/services_launcher.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/fb/fb_request.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/facebook/fb_data.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/facebook/fb_utils.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/facebook/fb_query.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/fb/fb_reader_utils.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/facebook/fb_contact_utils.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/contacts/import/import_status_data.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/async_storage.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/mobile_operator.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/icc_helper.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/wifi_helper.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/fxa_iac_client.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/sim_manager.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/memcard_manager.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/wifi.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/import_services.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/utils.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/finish_screen.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/tutorial.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/external_links.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/navigation.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/data_mobile.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/time.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/ui.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/language.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/app.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "js/operatorVariant.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/confirm.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/component_utils.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/elements/gaia_switch/script.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/elements/gaia_buttons/script.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/elements/gaia_subheader/script.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/elements/config.js",
+   "defer": ""
+  },
+  {
+   "_type": "style",
    "href": "app://theme.gaiamobile.org/shared/elements/gaia-theme/gaia-theme.css"
   },
   {
-   "type": "style",
+   "_type": "script",
+   "src": "/shared/elements/gaia-header/dist/gaia-header.js",
+   "defer": ""
+  },
+  {
+   "_type": "script",
+   "src": "/shared/js/fb/fb_data_reader.js"
+  },
+  {
+   "_type": "style",
    "href": "/shared/elements/gaia-icons/gaia-icons.css"
   }
  ],
@@ -174,6 +450,21 @@
   {
    "cssurl": "/shared/elements/gaia_buttons/style.css"
   },
-  ";</style></GAIA-BUTTONS>\n    </SECTION>\n  </FORM>\n\n  <form id=\"confirmation-message\" class=\"hide\" role=\"dialog\" data-type=\"confirm\">\n    <section>\n      <h1>Confirmation title</h1>\n      <p>Confirmation message</p>\n    </section>\n    <menu>\n      <button>Action 1</button>\n      <button>Action 2</button>\n    </menu>\n  </form>\n\n  <form data-type=\"confirm\" id=\"loading-overlay\" role=\"dialog\" class=\"fade-out no-opacity hide\">\n    <section id=\"progress-activity\" class=\"hide\">\n      <h1 data-l10n-id=\"scanningNetworks\" id=\"progress-title\">Scanning for networks</h1>\n      <p class=\"loading-icon\" role=\"status\">\n        <span id=\"progress-msg\"></span>\n        <progress id=\"progress-element\" class=\"\"></progress>\n      </p>\n      <menu>\n        <button data-l10n-id=\"cancel\" id=\"cancel-overlay\">Cancel</button>\n      </menu>\n    </section>\n  </form>\n\n  <section id=\"statusMsg\" role=\"status\" class=\"ftu\">\n    <p></p>\n  </section>\n\n  <iframe id=\"fb-curtain\" src=\"/shared/pages/import/curtain.html\"></iframe>\n  <iframe id=\"fb-oauth\" src=\"/shared/pages/import/oauth.html\" hidden=\"\"></iframe>\n  <iframe id=\"fb-extensions\"></iframe>\n\n\n\n\n</BODY>"
+  ";</style></GAIA-BUTTONS>\n    </SECTION>\n  </FORM>\n\n  <form id=\"confirmation-message\" class=\"hide\" role=\"dialog\" data-type=\"confirm\">\n    <section>\n      <h1>Confirmation title</h1>\n      <p>Confirmation message</p>\n    </section>\n    <menu>\n      <button>Action 1</button>\n      <button>Action 2</button>\n    </menu>\n  </form>\n\n  <form data-type=\"confirm\" id=\"loading-overlay\" role=\"dialog\" class=\"fade-out no-opacity hide\">\n    <section id=\"progress-activity\" class=\"hide\">\n      <h1 data-l10n-id=\"scanningNetworks\" id=\"progress-title\">Scanning for networks</h1>\n      <p class=\"loading-icon\" role=\"status\">\n        <span id=\"progress-msg\"></span>\n        <progress id=\"progress-element\" class=\"\"></progress>\n      </p>\n      <menu>\n        <button data-l10n-id=\"cancel\" id=\"cancel-overlay\">Cancel</button>\n      </menu>\n    </section>\n  </form>\n\n  <section id=\"statusMsg\" role=\"status\" class=\"ftu\">\n    <p></p>\n  </section>\n\n  ",
+  {
+   "_type": "iframe",
+   "src": "app://ftu.gaiamobile.org/shared/pages/import/curtain.html"
+  },
+  "\n  ",
+  {
+   "_type": "iframe",
+   "src": "app://ftu.gaiamobile.org/shared/pages/import/oauth.html"
+  },
+  "\n  ",
+  {
+   "_type": "iframe",
+   "src": ""
+  },
+  "\n\n\n\n\n</BODY>"
  ]
 }
