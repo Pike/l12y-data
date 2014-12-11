@@ -131,83 +131,11 @@
   },
   {
    "_type": "script",
-   "data-requiremodule": "utils",
+   "data-requiremodule": "modules/apps_cache",
    "type": "text/javascript",
    "charset": "utf-8",
    "async": "",
-   "src": "/js/utils.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "shared/async_storage",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/shared/js/async_storage.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "shared/settings_listener",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/shared/js/settings_listener.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "shared/wifi_helper",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/shared/js/wifi_helper.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "shared/icc_helper",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/shared/js/icc_helper.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "settings",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/js/settings.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "shared/lazy_loader",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/shared/js/lazy_loader.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "panels/root/panel",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/js/panels/root/panel.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "modules/navigator/mozBluetooth",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/js/modules/navigator/mozBluetooth.js"
-  },
-  {
-   "_type": "script",
-   "data-requiremodule": "shared/language_list",
-   "type": "text/javascript",
-   "charset": "utf-8",
-   "async": "",
-   "src": "/shared/js/language_list.js"
+   "src": "/js/modules/apps_cache.js"
   },
   {
    "_type": "script",
@@ -227,11 +155,51 @@
   },
   {
    "_type": "script",
+   "data-requiremodule": "modules/navigator/battery",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/js/modules/navigator/battery.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "modules/navigator/mozBluetooth",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/js/modules/navigator/mozBluetooth.js"
+  },
+  {
+   "_type": "script",
    "data-requiremodule": "modules/wifi_context",
    "type": "text/javascript",
    "charset": "utf-8",
    "async": "",
    "src": "/js/modules/wifi_context.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "panels/root/panel",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/js/panels/root/panel.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "settings",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/js/settings.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "utils",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/js/utils.js"
   },
   {
    "_type": "script",
@@ -243,19 +211,43 @@
   },
   {
    "_type": "script",
-   "data-requiremodule": "modules/apps_cache",
+   "data-requiremodule": "shared/async_storage",
    "type": "text/javascript",
    "charset": "utf-8",
    "async": "",
-   "src": "/js/modules/apps_cache.js"
+   "src": "/shared/js/async_storage.js"
   },
   {
    "_type": "script",
-   "data-requiremodule": "modules/navigator/battery",
+   "data-requiremodule": "shared/icc_helper",
    "type": "text/javascript",
    "charset": "utf-8",
    "async": "",
-   "src": "/js/modules/navigator/battery.js"
+   "src": "/shared/js/icc_helper.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "shared/language_list",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/shared/js/language_list.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "shared/lazy_loader",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/shared/js/lazy_loader.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "shared/settings_listener",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/shared/js/settings_listener.js"
   },
   {
    "_type": "script",
@@ -272,6 +264,14 @@
    "charset": "utf-8",
    "async": "",
    "src": "/shared/js/simslot_manager.js"
+  },
+  {
+   "_type": "script",
+   "data-requiremodule": "shared/wifi_helper",
+   "type": "text/javascript",
+   "charset": "utf-8",
+   "async": "",
+   "src": "/shared/js/wifi_helper.js"
   },
   {
    "_type": "script",
