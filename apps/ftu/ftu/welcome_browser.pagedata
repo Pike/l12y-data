@@ -195,7 +195,7 @@
   },
   {
    "_type": "script",
-   "src": "js/services_launcher.js",
+   "src": "/js/services_launcher.js",
    "defer": ""
   },
   {
@@ -260,77 +260,77 @@
   },
   {
    "_type": "script",
-   "src": "js/sim_manager.js",
+   "src": "/js/sim_manager.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/memcard_manager.js",
+   "src": "/js/memcard_manager.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/wifi.js",
+   "src": "/js/wifi.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/import_services.js",
+   "src": "/js/import_services.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/utils.js",
+   "src": "/js/utils.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/finish_screen.js",
+   "src": "/js/finish_screen.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/tutorial.js",
+   "src": "/js/tutorial.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/external_links.js",
+   "src": "/js/external_links.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/navigation.js",
+   "src": "/js/navigation.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/data_mobile.js",
+   "src": "/js/data_mobile.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/time.js",
+   "src": "/js/time.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/ui.js",
+   "src": "/js/ui.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/language.js",
+   "src": "/js/language.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/app.js",
+   "src": "/js/app.js",
    "defer": ""
   },
   {
    "_type": "script",
-   "src": "js/operatorVariant.js",
+   "src": "/js/operatorVariant.js",
    "defer": ""
   },
   {

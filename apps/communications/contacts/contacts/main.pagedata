@@ -296,7 +296,7 @@
   },
   {
    "_type": "script",
-   "src": "js/deferred_actions.js"
+   "src": "/contacts/js/deferred_actions.js"
   },
   {
    "_type": "script",
@@ -360,7 +360,7 @@
   },
   {
    "_type": "script",
-   "src": "js/migrator.js"
+   "src": "/contacts/js/migrator.js"
   },
   {
    "_type": "script",
@@ -368,7 +368,7 @@
   },
   {
    "_type": "script",
-   "src": "js/fb/datastore_migrator.js"
+   "src": "/contacts/js/fb/datastore_migrator.js"
   }
  ],
  "body": [
